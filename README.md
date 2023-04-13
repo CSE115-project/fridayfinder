@@ -1,14 +1,14 @@
 # Getting Started with FridayFinder
 
-##Install:
+## Install:
 
-###Clone Repo:
+### Clone Repo:
 ```bash
 git clone https://github.com/kainoabrabo/fridayfinder.git
 ```
 
-###Install [Docker Desktop](https://www.docker.com/)
-###then open Docker Desktop and run:
+### Install [Docker Desktop](https://www.docker.com/)
+### then open Docker Desktop and run:
 ```bash
 docker build -t nextjs-ff
 ```

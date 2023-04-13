@@ -12,7 +12,7 @@ git clone https://github.com/kainoabrabo/fridayfinder.git
 ```bash
 docker build -t nextjs-ff
 ```
-***Warning: you shouldn't need to run `npm install`, Docker takes care of that.***
+***Warning: you shouldn't need to run*** `npm install`, ***Docker takes care of that.***
 
 
 ### Open [http://localhost:3000](http://localhost:3000) with your browser.

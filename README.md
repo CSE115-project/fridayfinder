@@ -1,13 +1,18 @@
-## Getting Started
+# Getting Started with FridayFinder
 
-First, run the development server:
+##Install:
 
+###Clone Repo:
 ```bash
-1. npm install
-2. npm run dev
+git clone https://github.com/kainoabrabo/fridayfinder.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+###Install [Docker Desktop](https://www.docker.com/)
+###then open Docker Desktop and run:
+```bash
+docker build -t nextjs-ff
+```
+Warning: you shouldn't need to run `npm install`, Docker takes care of that.
 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+###Open [http://localhost:3000](http://localhost:3000) with your browser.

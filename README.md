@@ -15,4 +15,4 @@ docker build -t nextjs-ff
 Warning: you shouldn't need to run `npm install`, Docker takes care of that.
 
 
-###Open [http://localhost:3000](http://localhost:3000) with your browser.
+### Open [http://localhost:3000](http://localhost:3000) with your browser.

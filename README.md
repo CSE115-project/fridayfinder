@@ -5,6 +5,8 @@
 ### Clone Repo:
 ```bash
 git clone https://github.com/kainoabrabo/fridayfinder.git
+
+cd fridayfinder
 ```
 
 ### Install [Docker Desktop](https://www.docker.com/)
@@ -19,5 +21,17 @@ docker build -t nextjs-ff .
 ```bash
 docker run -dp 3000:3000 nextjs-ff
 ```
+
+- Should return a CONTAINER key like this:
+```bash
+7d80877099da...
+```
+- This key can be found on the Docker Desktop app under the container name
+
+### To stop the Next.js app in Docker:
+```bash
+docker stop <CONTAINER>
+```
+
 
 ### Open [http://localhost:3000](http://localhost:3000) with your browser.

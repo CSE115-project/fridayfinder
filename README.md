@@ -28,10 +28,10 @@ docker run -dp 3000:3000 nextjs-ff
 ```
 - This key can be found on the Docker Desktop app under the container name
 
+### Open [http://localhost:3000](http://localhost:3000) with your browser.
+
 ### To stop the Next.js app in Docker:
 ```bash
 docker stop <CONTAINER>
 ```
 
-
-### Open [http://localhost:3000](http://localhost:3000) with your browser.
